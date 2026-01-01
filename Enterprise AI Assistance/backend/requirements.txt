@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+fastapi
+uvicorn
+python-multipart
+pandas
+numpy
+python-dotenv
+tiktoken
+openpyxl
+tabulate
+pypdf
+chromadb

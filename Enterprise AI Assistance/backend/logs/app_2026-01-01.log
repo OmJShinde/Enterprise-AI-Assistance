@@ -1,0 +1,9 @@
+2026-01-01 16:27:56,161 - api_main - INFO - Received query: “What is the probation period for new employees?”
+2026-01-01 16:27:56,163 - api_main - INFO - Detected Intent: DOCUMENT_QUERY
+2026-01-01 16:27:56,164 - api_main - INFO - Request processed successfully.
+2026-01-01 16:28:47,496 - api_main - INFO - Received query: http://10.14.170.179:3000
+2026-01-01 16:28:47,496 - api_main - INFO - Detected Intent: GENERAL
+2026-01-01 16:28:47,497 - api_main - INFO - Request processed successfully.
+2026-01-01 16:29:00,928 - api_main - INFO - Received query: “What is the probation period for new employees?”
+2026-01-01 16:29:00,929 - api_main - INFO - Detected Intent: DOCUMENT_QUERY
+2026-01-01 16:29:00,930 - api_main - INFO - Request processed successfully.
