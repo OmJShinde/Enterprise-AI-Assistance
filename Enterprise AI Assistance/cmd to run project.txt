@@ -1,11 +1,46 @@
+=== ENTERPRISE AI ASSISTANCE - STARTUP GUIDE ===
+
+IMPORTANT: Run Backend and Frontend in SEPARATE terminals!
+
+--- TERMINAL 1: Backend Server ---
+1. Open PowerShell/Terminal
+2. Navigate to project root:
+   cd "D:\projects\Enterprise AI Assistance"
+3. Go to backend:
+   cd backend
+4. Activate virtual environment:
+   .\venv\Scripts\activate
+5. Start backend server:
+   python main.py
+   
+   ✓ Backend will run on: http://localhost:8000
+
+--- TERMINAL 2: Frontend Server ---
+1. Open a NEW PowerShell/Terminal window
+2. Navigate to project root:
+   cd "D:\projects\Enterprise AI Assistance"
+3. Go to frontend:
+   cd frontend
+4. Start frontend server:
+   npm run dev
+   
+   ✓ Frontend will run on: http://localhost:3000
+
+--- Quick Commands (Copy-Paste) ---
+
+Backend (from project root):
+cd backend && .\venv\Scripts\activate && python main.py
+
+Frontend (from project root):
+cd frontend && npm run dev
+
+--- First Time Setup Only ---
+Backend:
 cd backend
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
-python main.py
 
-
-
+Frontend:
 cd frontend
 npm install
-npm run dev
